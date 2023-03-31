@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import "./video.css";
 import cat from "../videos/brecker2.mp4";
+import VideoFooter from "./components/footer/videoFooter";
 
 function Video() {
   const videoRef = useRef(null);
@@ -27,6 +28,7 @@ function Video() {
         loop
         src={cat}
       ></video>
+      <VideoFooter />
     </div>
   );
 }
