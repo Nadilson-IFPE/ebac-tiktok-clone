@@ -1,9 +1,10 @@
 import React, { useRef, useState } from "react";
 import "./video.css";
-import cat from "../videos/brecker2.mp4";
-import VideoFooter from "./components/footer/videoFooter";
+//import cat from "../videos/brecker2.mp4";
+import VideoFooter from "./components/footer/VideoFooter";
+import VideoSidebar from "./components/sidebar/VideoSidebar";
 
-function Video() {
+function Video({ likes, messages, shares, name, description, music, url }) {
   const videoRef = useRef(null);
   const [play, setPlay] = useState(false);
 
@@ -26,9 +27,11 @@ function Video() {
         autoPlay
         controls
         loop
-        src={cat}
+        // src={cat}
+        src={url}
       ></video>
-      <VideoFooter />
+      <VideoSidebar likes={likes} messages={messages} shares={shares} />
+      <VideoFooter name={name} description={description} music={music} />
     </div>
   );
 }
