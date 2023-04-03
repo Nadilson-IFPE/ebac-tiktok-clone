@@ -1,0 +1,9 @@
+{
+  "projects": {
+    "default": "tiktok-ebac",
+    "tiktok-ebac-prod": "tiktok-ebac",
+    "tiktok-ebac-dev": "tiktok-ebac"
+  },
+  "targets": {},
+  "etags": {}
+}

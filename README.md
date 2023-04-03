@@ -1,3 +1,7 @@
+# Deployed version of project
+
+This project was deployed at the following address: [TikTok-EBAC](https://tiktok-ebac.web.app/).
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

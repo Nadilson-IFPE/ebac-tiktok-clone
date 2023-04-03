@@ -10,7 +10,7 @@ function VideoFooter({ name, description, music }) {
         <p>{description}</p>
         <div className="videoFooter__music">
           <MusicNoteIcon className="videoFooter__icon" />
-          <div className="videoMusicFooter__text">
+          <div className="videoMusicFooterMusic__text">
             <p>{music}</p>
           </div>
         </div>

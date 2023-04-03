@@ -17,12 +17,12 @@
   display: flex;
 }
 
-.videoMusicFooter__text {
+.videoMusicFooterMusic__text {
   width: 80%;
   overflow-x: hidden;
 }
 
-.videoMusicFooter__text p {
+.videoMusicFooterMusic__text p {
   animation: moveText 3s infinite linear;
   -webkit-animation: moveText 3s infinite linear;
 }
@@ -72,5 +72,15 @@
     -moz-transform: translateX(-100%);
     -ms-transform: translateX(-100%);
     -o-transform: translateX(-100%);
+  }
+}
+
+@media only screen and (max-width: 440px) {
+  .videoFooter {
+    bottom: 22%;
+  }
+
+  .videoMusicFooterMusic__text {
+    width: 78%;
   }
 }
